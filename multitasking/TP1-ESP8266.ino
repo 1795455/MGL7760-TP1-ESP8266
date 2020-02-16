@@ -91,6 +91,8 @@ void setup() {
 void loop() {
     fsm_led_RED.run_machine();
     fsm_led_BLUE.run_machine();
+
+    // Comment GIT 
 }
 
 //cd C:/Users/hhrui/OneDrive/Documents/GitHub/MGL7760-TP1-ESP8266/multitasking
