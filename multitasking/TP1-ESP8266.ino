@@ -4,8 +4,11 @@
 
 #include "Fsm.h"
 
-#define led_BLUE D4
-#define led_RED D2
+//#define led_BLUE D4
+//#define led_RED D2
+
+#define led_BLUE 2
+#define led_RED 4
 
 int lastMillis_led_RED;
 int timeStateOff_led_RED = 1700;
